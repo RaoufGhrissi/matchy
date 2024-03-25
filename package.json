@@ -1,0 +1,29 @@
+{
+  "name": "csv_matchy",
+  "version": "1.0.1",
+  "description": "This library provides functionality to upload CSV files, match the file header with existing options, and validate the contents of the CSV files based on predefined conditions. The validation includes checking for mandatory fields, maximum or minimum length, and data type (string, integer, boolean, float, or regex pattern).",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaoufGhrissi/matchy.git"
+  },
+  "keywords": [
+    "csv",
+    "validator"
+  ],
+  "author": "Mahdi Cheikhrouhou & Abderraouf Ghrissi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RaoufGhrissi/matchy/issues"
+  },
+  "homepage": "https://github.com/RaoufGhrissi/matchy#readme",
+  "dependencies": {
+    "papaparse": "^5.4.1"
+  },
+  "devDependencies": {
+    "@types/papaparse": "^5.3.14"
+  }
+}

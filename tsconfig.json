@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "es2015",
+    "lib": [
+      "ESNext",
+      "DOM",
+    ],
+    "outDir": "dist",
+    "rootDir": "./src",
+    "strict": true,
+    "moduleResolution": "node",
+  },
+}
